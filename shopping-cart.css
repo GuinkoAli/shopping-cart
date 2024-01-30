@@ -1,0 +1,264 @@
+.nav {
+	background: black;
+	height: 80px;
+	width: 100%;
+	text-align: center;
+}
+
+
+.nav ul {
+	height: 80px;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.nav ul li {
+	color: #fff;
+	display: inline-block;
+	height: 80px;
+	line-height: 80px;
+	list-style: none;
+	padding: 0 10px;
+	transition: background .5s;
+}
+
+.btn:hover, .nav ul li:hover {
+	background: red;
+	cursor: pointer;
+	transition: background .5s;
+}
+
+
+.navbar {
+padding-bottom: 0;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.product-orders {
+	display: inline-flex;
+}
+
+.heading {
+	margin-top: 7%;
+}
+.sizes {
+	font-weight: 400;
+}
+
+.products,
+.order {
+	font-size: 13px;
+}
+
+.btn-sizes {
+	font-size: 10px;
+	background: #d4d4d5;
+	color: black;
+	border: none;
+	font-weight: 600;
+	margin: 2px;
+}
+
+
+.btn-dark {
+	margin: 1px;
+
+}
+
+.size-pad{
+	padding: 8px;
+}
+
+.star-container {
+	font-size: 12px;
+	text-align: center;
+}
+
+.number,
+.rate-number{
+	margin-top: -30px;
+}
+
+.rate-number {
+	font-size: 12px;
+	font-weight: 700;
+	padding: 2px 10px;
+	background: #eef2f4;
+	color: black;
+	border: none;
+}
+
+.rate {
+	display: flex;
+	justify-content: center;
+	padding: 19px;
+}
+
+.img {
+	height: 300px;
+	position: relaive;
+}
+
+.card-img, .card-img-top {
+	margin:  0;
+}
+
+.card-img, .card-img-top, .card-img-bottom {
+    width: 95%;
+}
+
+.yellow-dash {
+	padding: 1px;
+	width: 20px;
+	background: orange;
+	margin-left: 106px;
+	margin-top: 20px;
+	
+}
+
+.free-shipping {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    font-size: 12px;
+    border: none;
+    background: black;
+    color: white;
+    
+}
+
+.product-orders {
+	padding-bottom: 20PX;
+}
+
+#order-by {
+	padding: 0 25px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	background-color: f8f8f8;
+	font-size: 14px;
+	color: #333;
+}
+
+.card {
+	height:  ;
+	margin-bottom: 30px;
+	border: none;
+
+}
+
+.card-body {
+	flex: 0;
+}
+
+ .btn{
+ 	color: white;
+ 	border-radius: 0;
+ }
+
+a.btn {
+	background-color: black;
+	border: none;
+	pointer-events: center;
+	margin: 3px;
+  margin-right: 16px;
+}
+
+.card-title {
+	font-size: 12px;
+	text-align: center;
+}
+
+.figure1 {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.para-1,
+.para-2 {
+	font-size: small;
+	border-bottom: -10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;i
+
+}
+
+p.para-2 {
+	margin-bottom: -80px;
+	
+}
+
+
+.number, .rate-number {
+     margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: -5px;
+}
+
+@media print {
+  .d-print-inline {
+    display: inline !important;
+  }
+}
+
+.pagination {
+  --bs-pagination-padding-x: 0.75rem;
+  --bs-pagination-padding-y: 0.375rem;
+  --bs-pagination-font-size: 1rem;
+  --bs-pagination-color: var(--bs-pagination-color);
+  --bs-pagination-bg: var(--bs-body-bg);
+  --bs-pagination-border-width: var(--bs-border-width);
+  --bs-pagination-border-color: var(--bs-border-color);
+  --bs-pagination-border-radius: var(--bs-border-radius);
+  --bs-pagination-hover-color: #fff;
+  --bs-pagination-hover-bg: #ca0a22;
+  --bs-pagination-hover-border-color: var(--bs-border-color);
+  --bs-pagination-focus-color: var(--bs-link-hover-color);
+  --bs-pagination-focus-bg: var(--bs-secondary-bg);
+  --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  --bs-pagination-active-color: #fff;
+  --bs-pagination-active-bg: #fb0b0b;
+  --bs-pagination-active-border-color: #0d6efd;
+  --bs-pagination-disabled-color: var(--bs-secondary-color);
+  --bs-pagination-disabled-bg: var(--bs-secondary-bg);
+  --bs-pagination-disabled-border-color: var(--bs-border-color);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-left: 0;
+  list-style: none;
+
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--bs-heading-color);
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  z-index: 1030;
+}
+
+.header {
+	margin-top: 100px;
+}
